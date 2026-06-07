@@ -1,30 +1,40 @@
-Your Markdown documentation file is ready
-[file-tag: code-generated-file-0-1780861000639574735]
+Adidas Sales Dashboard Overview
 
-```markdown
-# Adidas Middle East Sales Performance Analytics
-
-An interactive sales performance analytics solution and dynamic dashboard tracking Adidas regional operations across the Middle East from 2023 to 2025. This project visualizes key performance indicators (KPIs), structural breakdowns, and seasonal trends to support data-driven strategy and commercial optimization.
-
-## Dashboard Overview
-<img width="1195" height="677" alt="WhatsApp Image 2026-06-07 at 2 37 01 PM" src="https://github.com/user-attachments/assets/f6be88c6-ac49-4422-b565-db85b4bd1dc3" />
+<img width="1195" height="677" alt="Adidas-US-Interactive-Sales-Project" src="https://github.com/user-attachments/assets/d514a51e-3b7d-4408-ab3f-9333c69396ff" />
 
 
+1. Key Performance Indicators (KPIs)
+- Total Sales: The project achieved total sales of $287,378.
+- Total Profit: The net profit reached $85,070, which represents a strong 29.6% profit margin.
+- Total Units Sold: A total of 3,550 units were sold across all product types.
 
-The dashboard provides a holistic view of regional sales performance through unified visualization modules and interactive multi-dimensional slicing capabilities:
+2. Sales Trend
+- 2023: Sales started strong at $107,348.
+- 2024: Sales remained stable with a very slight drop, reaching $103,230.
+- 2025: Sales experienced a noticeable decline, dropping to $76,800.
 
-* **Key Performance Indicators (KPIs):** Consolidated metrics tracking high-level corporate health, including **Total Sales ($287,378)**, **Total Profit ($85,070)**, and **Total Units Sold (3,550)**.
-* **Sales Trend Analysis:** A continuous timeline visualization mapping revenue trajectory across 2023 ($107,348), 2024 ($103,230), and 2025 ($76,800), exposing macro-level shifts and performance momentum.
-* **Sales By Store Type:** An explicit comparative breakdown of retail distribution strategy across major commerce channels: **Online ($133,207)**, **Retail ($102,147)**, **Outlet ($33,516)**, and **Wholesale ($18,507)**.
-* **Sales By Category:** Segmented product-level analysis highlighting the primary revenue contributors: **Footwear ($179,006)**, **Apparel ($77,378)**, and **Accessories ($30,994)**.
-* **Sales By Region:** A geographical distribution layout showcasing market share concentration across Middle Eastern territories: **Egypt (30%)**, **Iraq (28%)**, **Oman (24%)**, **KSA (12%)**, and **Lebanon (6%)**.
-* **Interactive Control Panel:** Dynamic sidebar filters allowing immediate cross-filtering and granular drill-downs by *Region*, *Order Date (Year)*, *Product Category*, and *Store Type*.
+3. Sales By Store Type
+- Online: This is the top-performing sales channel, generating $133,207.
+- Retail: Traditional retail stores came in second place close behind at $102,147.
+- Outlet: Discount outlet stores recorded moderate sales of $33,516.
+- Wholesale: This channel contributed the least to total revenue at $18,507.
 
-## Project Architecture
+4. Sales By Category
+- Footwear: This is the main product driver, bringing in $179,006 (more than half of total revenue).
+- Apparel: Clothing came in second place with $77,378 in sales.
+- Accessories: This category was the lowest contributor, reaching $30,994.
 
-```text
-├── data/                  # Anonymized transactional and regional sales data
-├── documentation/         # Data dictionaries and metric definitions
-├── src/                   # ETL and data preparation scripts
-├── dashboard/             # Power BI Desktop template file (.pbit / .pbix)
-└── README.md              # Project documentation
+5. Sales By Region
+- Egypt: Holds the largest market share at 30%.
+- Iraq: Follows closely in second place at 28%.
+- Oman: Delivered a strong performance with a 24% share.
+- KSA (Saudi Arabia): Contributed 12% to total sales.
+- Lebanon: Represents the smallest market share at 6%.
+
+---
+
+Interactive Slicers
+
+The dashboard includes sidebar filters that allow users to click on any specific region, year, product category, or store type to instantly update all charts and metrics for that selection.
+
+```
